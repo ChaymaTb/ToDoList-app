@@ -1,0 +1,44 @@
+.add-task{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    column-gap: 10px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+/*input for adding todo*/
+.input-add {
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #BFD641;
+    font-size: 1em;
+    font-weight: 500;
+}
+.input-add:focus {
+    outline-color: white;
+}
+/*button add todo*/
+.add {
+    border-radius: 3px;
+
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 0.8em;
+    font-weight: 500;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #BFD641;
+}
+.add:hover {
+    border: 1px solid white;
+}

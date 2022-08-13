@@ -1,0 +1,28 @@
+.bttns{
+    margin-bottom: 20px;
+    height: 80px;
+}
+/* todo filter*/
+.filter-selector{
+    color: #090909;
+    border-radius: 3px;
+    height: 30px;
+    color: #090909;
+    font-size: 0.8em;
+    font-weight: 500;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+        -6px -6px 12px #BFD641;
+    
+}
+.filter-selector:focus {
+    outline-color: white;
+}
+.filter-selector option{
+    border: none;
+    background-color: #e8e8e8;
+    font-size: 1em;
+    font-weight: 500;
+}

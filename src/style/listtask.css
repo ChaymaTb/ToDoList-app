@@ -1,0 +1,116 @@
+
+.list-task{
+    width: 80%;
+}
+.list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-task ul li{
+    width: 100%;
+}
+.list-buttons{
+    display: flex;
+    width: 100%;
+}
+.editing-btns{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.text{
+    width: 200px;
+}
+/* save button */
+.save-btn{
+    color: #2471A3;
+    padding: 3px;
+    border: none;
+    background-color: rgba(100, 77, 237, 0.08);
+    border-radius: 3px;
+    transition: all 0.2s linear;
+    width: 40px;
+    height: 24px;
+}
+.save-btn:hover {
+    box-shadow: 0px 0px 0px 3px #2471A3;
+}
+/*edit button*/
+.edit-btn {
+    background-color: rgba(100, 77, 237, 0.08);
+    border: none;
+    box-shadow: 0px 0px 0px 3px #ffffff00;
+    height: 24px;
+    width: 24px;
+    border-radius: 3px;
+    transition: all .5s ease;
+}
+.edit-btn:active {
+    transform: scale(.9);
+    transition: all 100ms ease;
+}
+.edit-btn:hover {
+    box-shadow: 0px 0px 0px 3px #2471A3;
+}
+/* done button */
+.done-btn{
+    color: #2471A3;
+    padding: 3px;
+    border: none;
+    background-color: rgba(100, 77, 237, 0.08);
+    border-radius: 3px;
+    transition: all 0.2s linear;
+    width: 40px;
+    height: 24px;
+}
+.done-btn:hover {
+    box-shadow: 0px 0px 0px 3px #2471A3;
+}
+/* delete button*/
+.rmv-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border: none;
+    background-color: rgba(100, 77, 237, 0.08);
+    border-radius: 3px;
+    transition: all 0.2s linear;
+    width: 24px;
+    height: 24px;
+}
+.rmv-btn {
+    position: relative;
+    display: inline-block;
+}
+.rmv-btn .rmv-text {
+    visibility: hidden;
+    width: 4em;
+    background-color: rgba(0, 0, 0, 0.253);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 110%;
+}
+.rmv-btn .rmv-text::after {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(0, 0, 0, 0.253) transparent transparent;
+}
+.rmv-btn:hover {
+    box-shadow: 0px 0px 0px 3px #2471A3;
+}
+.rmv-btn:hover .rmv-text {
+    visibility: visible;
+}
+
